@@ -27,7 +27,7 @@
 			<Item Name="LibreVNA.lvclass" Type="LVClass" URL="../LibreVNA/LibreVNA.lvclass"/>
 			<Item Name="PIDController.lvclass" Type="LVClass" URL="../Library/PIDController/PIDController.lvclass"/>
 			<Item Name="PIDModbus.lvlib" Type="Library" URL="../PIDModBus/PIDModbus.lvlib"/>
-			<Item Name="SharedVars.lvlib" Type="Library" URL="../SharedVars.lvlib"/>
+			<Item Name="SharedVars.lvlib" Type="Library" URL="../Library/SharedVars.lvlib"/>
 			<Item Name="SimPID.lvclass" Type="LVClass" URL="../Library/SimPID/SimPID.lvclass"/>
 			<Item Name="ThermPID.lvclass" Type="LVClass" URL="../Library/ThermoPID/ThermPID.lvclass"/>
 		</Item>
@@ -332,19 +332,19 @@
 				<Property Name="Bld_buildSpecName" Type="Str">OvenControl</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Builds</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9236DFC5-A1BE-45C5-93F4-A12737594CB8}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">OvenControl.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/OvenControl.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Builds/OvenControl.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../Builds/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6B89F2AD-4A76-4ADB-8E5B-C9D1A9EEF45B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C8DA1BF1-E908-484B-88BF-2DEB135E71A1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
